@@ -8,5 +8,10 @@ Projet d'accidentologie Partie 1 : accidents de véo sur le territoire GPSEA (Gr
 - Les notebooks python sont gardés dans l'espace principal car ils doivent accéder rapidement aux différentes données/productions.
 
 2/ Les notebooks
+- cyclo.ipynb : notebook qui amorce l'étude sur les accidents de vélo.
+- carto.ipynb : notebook de cartographie globale des accidents de la route répertoriés. Offre une vue globale. Il a une portée exporatoire (on veut poser des questions).
+- eda_1.ipynb : notebook pour l'exploration générale du jeu de données. A ce jour, il doit être complété par une analyse des corrélations.
+- timeSliderChoropleth.ipynb : notebook avec une carte choroplèthe dynamique. On souhaite représenter le nombre d'accident par commune, au cours du temps. Outil de visualisation et de comparaison temporelle. A la vue de la complexité de la carte, plusieurs sources ont été mobilisées. Les liens sont dans le notebook et il est fortement recommandé de les regarder pour mieux comprendre.
+
 Pour exécuter les notebooks dans de bonnes conditions, veuillez exécuter :
 - pour eda_1.ipynb, carto.ipynb et cyclo.ipynb requirements_cyclo.txt
